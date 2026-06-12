@@ -3,7 +3,8 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-
+## this is to add the numbers when the numbers are given in reverse order in form of linked list 
+## 321 is given as 1->2->3
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         dummy = ListNode()

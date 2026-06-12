@@ -14,3 +14,4 @@ class Solution:
             if alive:
                 stack.append(a)
         return stack
+## alive tracks that current asteriod is available or not

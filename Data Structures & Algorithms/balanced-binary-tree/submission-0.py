@@ -14,6 +14,7 @@ class Solution:
             left = dfs(node.left)
             right = dfs(node.right)
             self.max_dif = max(self.max_dif, abs(left-right))
-            return 1+max(left, right)
-        dfs(root)
+            return 1+max(left, right)        ## this is height so agar node pe left ya right nhi hai
+        dfs(root)                            ## toh ye 1 return kar dega, that is node itself
         return self.max_dif<=1
+        
